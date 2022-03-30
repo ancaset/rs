@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+.nav_link {
+    position: relative;
+    display: inline;
+    color: #fff;
+    font-size: 20px;
+    top: 15px;
+    padding: 1%;
+    height: 60px;
+    background-color: #1C3F94;    
+}
+.nav_link:hover {
+    background-color: #163174;
+}
+.logo {
+    position: absolute;
+
+}
+li {
+    list-style-type: none;
+}
+header {
+    width: 100%;
+    height: 60px;
+    background-color: #1C3F94;
+    text-align: center;
+}
+section {
+    padding: 1%;
+    margin: 2%;
+    border-radius: 15px;
+    background-color: #EEF2F4;
+}
+.back_link {
+    color: #0087E5;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.back_link:hover {
+    color: #fff;
+    background-color: #0087E5;
+    border-radius: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.bus_19t { /*!!!!*/
+    width: 60%;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title_ {
+    color: #0087E5;
+}
+.trans_nav {
+    display: inline;
+    text-decoration: none;
+    padding: 1%;
+    height: 20px;
+    background-color: #fff;
+    color: #000;
+}
+.trans_nav:hover {
+    color: #0087E5;
+    text-decoration: underline;
+}
+.trans_selected {
+    color: #0087E5;
+    text-decoration: underline;
+}
+.transport_ {
+    margin-top: 1%;
+    background-color: #fff;
+    width: auto;
+    height: auto;
+    padding: 1%;
+    border-radius: 15px 15px 0 0;
+}
+button {
+    text-decoration: none;
+    border: none;
+    font-size: 20px;
+    padding: 1%;
+}
+.vehicle_schedules:hover {
+    text-decoration: underline;
+    color: #0087E5;
+}
+.bus_number {
+    color: #fff;
+    background-color: #F4B427;
+    width: 35px;
+    padding: 5px;
+    border-radius: 5px;
+    height: auto;
+    margin-bottom: 10px;
+}
+.location {
+    float: left;
+}
+.station_list { /*!!!!*/
+    display: inline-block;
+    width: 18%;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 8px;
+}
+.direction_ {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.direction {
+    color: #000;
+}
+.direction:hover {
+    color: #0087E5;
+    text-decoration: underline;
+}
+
+/*bus station css*/
+.bus_station_ {
+    padding: 5px;
+}
+.bus_station {
+    color: #000;
+}
+.bus_station_:hover {
+    background-color: #FBE3A5;
+}
+.selected_stat {
+    background-color: #F4B427;
+}
+.shedules_table {
+    width: 100%;
+}
+.station_schedule{
+    display: inline-block;
+    float: right;
+    padding: 10px;
+    width: 82%;
+    height: 200px;
+}
+table {
+    border-collapse: collapse;
+    border: 1px solid #fff;
+}
+td {
+    border: 1px solid #fff;
+}
+.table_hour {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.table_minute {
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #000;
+}
+.table_minute:hover {
+    background-color: #F4B427;
+    color: #fff;
+    border: 5px;
+}
